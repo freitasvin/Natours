@@ -15,6 +15,11 @@
     box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
     text-align: center;
     cursor: pointer;
+
+    @include respond(tab-port) {
+      top: 2.5rem;
+      right: 2.5rem;
+    }
   }
 
   &__background {
@@ -27,7 +32,12 @@
     right: 6.5rem;
     z-index: 1000;
 
-    transition: all 0.6s cubic-bezier(0.83, 0, 0.17, 1);
+    transition: transform 0.6s cubic-bezier(0.83, 0, 0.17, 1);
+
+    @include respond(tab-port) {
+      top: 3rem;
+      right: 3rem;
+    }
   }
 
   &__nav {
