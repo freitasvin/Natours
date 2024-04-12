@@ -61,7 +61,7 @@ Check the documentation to install it on your system.
 
 ### Installing
 
-<img width=1080 height=300 src="screenshots/screenshot-1.PNG" alt="Project logo"></a>
+<img width=1080 height=300 src="screenshots/screenshot-1.png" alt="Project logo"></a>
 
 Once you have Node Js on your system.
 
